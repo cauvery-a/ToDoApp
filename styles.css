@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #app {
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  #taskList {
+    list-style: none;
+    padding: 0;
+    align-items: center;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+  }
+  
+  li.highlighted span {
+    background-color: #F9E076;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  .delete-btn {
+    background-color: #F48D75;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    padding: 4px 8px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .highlight-btn {
+    background-color: #F9E076;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
